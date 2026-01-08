@@ -8,81 +8,81 @@ Q1 2026 is a critical quarter where Fluidstack transitions from scrappy executio
 
 ---
 
-## O1: Execute Stream/CB3 deployments successfully and prove deployment engine for 2026+ scale
+### O1: Execute Stream/CB3 deployments successfully and prove deployment engine for 2026+ scale
 
 **Why this matters:** Stream/CB3 are the proving ground for repeatable, scaled operations. Success here validates processes, tooling, and team capacity for future growth.
 
-### KR1: Stream sub-pod deployed successfully with 576 machines operational and <5% failure rate requiring manual intervention
+- **KR1:** Stream sub-pod deployed successfully with 576 machines operational and <5% failure rate requiring manual intervention
 
-### KR2: CB3 deployment readiness validated: runbooks tested, tooling load-tested for 2x capacity
+- **KR2:** CB3 deployment readiness validated: runbooks tested, tooling load-tested for 2x capacity
 
-### KR3: Lab 2.0 environment operational by Mar 31 with 1 rack V7, 1 Deschutes CDU, VAST cluster (site selected Jan 31, migration plan Feb 15, equipment delivered Mar 15)
+- **KR3:** Lab 2.0 environment operational by Mar 31 with 1 rack V7, 1 Deschutes CDU, VAST cluster (site selected Jan 31, migration plan Feb 15, equipment delivered Mar 15)
 
-### KR4: Procurement systems and partnerships operational: Zip integration complete (vendor onboarding <7 days, PO/invoice tracking by Feb 15), Atlas procurement integrated (<24hr latency), sell-through relationships established (Dell/SMC, Arista, Commscope by Feb 15), off-site integration program operational (WWT/Computacenter/Hyve by Feb 28)
+- **KR4:** Procurement systems and partnerships operational: Zip integration complete (vendor onboarding <7 days, PO/invoice tracking by Feb 15), Atlas procurement integrated (<24hr latency), sell-through relationships established (Dell/SMC, Arista, Commscope by Feb 15), off-site integration program operational (WWT/Computacenter/Hyve by Feb 28)
 
 **Roll-up from:** Infra Compute O1/O2, Networking O1/O2, DCIM O1/O2/O3, Infrastructure Deployment O1, Procurement O1/O2, Cluster & Platform Ops O1
 
 ---
 
-## O2: Build ClusterMAX Platinum foundation and industry-leading operational excellence
+### O2: Build ClusterMAX Platinum foundation and industry-leading operational excellence
 
 **Why this matters:** ClusterMAX Platinum differentiates Fluidstack in the market. Q1 establishes the foundation (auto-remediation, security, DX) for mid-2026 certification.
 
-### KR1: Auto-remediation operational: MTTR <15min (software) / <4hrs (hardware) with ≥85% automated failure resolution
+- **KR1:** Auto-remediation operational: MTTR <15min (software) / <4hrs (hardware) with ≥85% automated failure resolution
 
-### KR2: Security posture measurably improved: ≥90% Critical CVEs remediated within SLA, incident response capability tested (tabletop exercise), ≥80% clusters hardened to CIS benchmarks
+- **KR2:** Security posture measurably improved: ≥90% Critical CVEs remediated within SLA, incident response capability tested (tabletop exercise), ≥80% clusters hardened to CIS benchmarks
 
-### KR3: Customer experience improvements delivered: management cluster migration complete, NVSentinel on 90% of clusters, Kubernetes Add-On System operational, TPU v7 workload scheduling validated
+- **KR3:** Customer experience improvements delivered: management cluster migration complete, NVSentinel on 90% of clusters, Kubernetes Add-On System operational, TPU v7 workload scheduling validated
 
-### KR4: Observability foundation established: FSH on 100% of clusters reducing page volume by 40%, unified observability architecture documented, Mimir costs reduced to <$0.025/host/h
+- **KR4:** Observability foundation established: FSH on 100% of clusters reducing page volume by 40%, unified observability architecture documented, Mimir costs reduced to <$0.025/host/h
 
-### KR5: Deployment velocity demonstrates scalability: GPU deployment rate ≥1000 GPUs/hr, sub-pod deployment time ≤10 days rack-ready to workload-ready
+- **KR5:** Deployment velocity demonstrates scalability: GPU deployment rate ≥1000 GPUs/hr, sub-pod deployment time ≤10 days rack-ready to workload-ready
 
 **Roll-up from:** Cluster & Platform Ops O2/O3/O4/O5, Observability Team O1/O2/O3/O4, Infra Compute O1
 
 ---
 
-## O3: Validate TPU-based inference business and maintain strategic positioning
+### O3: Validate TPU-based inference business and maintain strategic positioning
 
 **Why this matters:** Inference on TPU represents a new product line and strategic competitive advantage. Q1 proves technical and commercial viability.
 
-### KR1: Technical capability demonstrated: ≥2 reasoning models benchmarked on v7 hardware with competitive performance, customer deployment (Cursor/Perplexity) with <10% degradation
+- **KR1:** Technical capability demonstrated: ≥2 reasoning models benchmarked on v7 hardware with competitive performance, customer deployment (Cursor/Perplexity) with <10% degradation
 
-### KR2: Business model validated: LOIs from 3-5 tier-1 customers, $/token pricing defined with 50%+ margin, commitment for 1-2 v7 pods secured
+- **KR2:** Business model validated: LOIs from 3-5 tier-1 customers, $/token pricing defined with 50%+ margin, commitment for 1-2 v7 pods secured
 
-### KR3: Core inference architecture validated (testing, not production): K8s on TPUs operational, disaggregated prefill/decode prototype functional, KV cache architecture tested
+- **KR3:** Core inference architecture validated (testing, not production): K8s on TPUs operational, disaggregated prefill/decode prototype functional, KV cache architecture tested
 
 **Roll-up from:** Inference O1/O2/O3
 
 ---
 
-## O4: Improve customer experience and supplier quality standards
+### O4: Improve customer experience and supplier quality standards
 
 **Why this matters:** As Fluidstack scales, consistent customer experience and supplier quality are essential for retention and growth. Q1 establishes scalable processes.
 
-### KR1: Supplier quality standardized: Technical Requirements published and acknowledged by all active suppliers, 100% new deployments on managed k8s/SLURM on k8s (zero bare metal exceptions)
+- **KR1:** Supplier quality standardized: Technical Requirements published and acknowledged by all active suppliers, 100% new deployments on managed k8s/SLURM on k8s (zero bare metal exceptions)
 
-### KR2: Supplier quality dashboard operational: real-time metrics (uptime, incident response, deployment success, FSH coverage) with automated data collection, integrated into presales process
+- **KR2:** Supplier quality dashboard operational: real-time metrics (uptime, incident response, deployment success, FSH coverage) with automated data collection, integrated into presales process
 
-### KR3: Customer Engineering operational excellence: P0-only paging implemented, 100% clusters trackable in Jira, PoC process with Discovery Agreements operational
+- **KR3:** Customer Engineering operational excellence: P0-only paging implemented, 100% clusters trackable in Jira, PoC process with Discovery Agreements operational
 
-### KR4: go/top40 customers aligned to product roadmap with clear delivery commitments and predictable execution
+- **KR4:** go/top40 customers aligned to product roadmap with clear delivery commitments and predictable execution
 
 **Roll-up from:** Customer Engineering O1/O2/O3/O4/O5
 
 ---
 
-## O5: Build world-class engineering team and culture
+### O5: Build world-class engineering team and culture
 
 **Why this matters:** 2026+ scale requires team capacity, retention, continuous learning, and leveraging AI to increase productivity. Q1 builds the foundation.
 
-### KR1: Hiring executing at target velocity: 100% of hiring targets met (16-18 hires across Procurement +4, Infra +4, Networking +2, Software +4-6), interview to offer latency <2 weeks
+- **KR1:** Hiring executing at target velocity: 100% of hiring targets met (16-18 hires across Procurement +4, Infra +4, Networking +2, Software +4-6), interview to offer latency <2 weeks
 
-### KR2: Team retention strong: <10% voluntary attrition across engineering organization
+- **KR2:** Team retention strong: <10% voluntary attrition across engineering organization
 
-### KR3: Professional development and growth: 100% of team members complete ≥1 professional development activity (conference attendance, certification like CKA, training course)
+- **KR3:** Professional development and growth: 100% of team members complete ≥1 professional development activity (conference attendance, certification like CKA, training course)
 
-### KR4: AI tooling adopted and created: ≥3 custom AI tools/agents built and operational (e.g., deployment assistant, troubleshooting copilot, runbook generator), existing AI tools (Copilot, Claude, etc.) adopted across engineering workflows
+- **KR4:** AI tooling adopted and created: ≥3 custom AI tools/agents built and operational (e.g., deployment assistant, troubleshooting copilot, runbook generator), existing AI tools (Copilot, Claude, etc.) adopted across engineering workflows
 
 **Roll-up from:** All team hiring KRs, Customer Engineering O3 (CKA certification)
 
