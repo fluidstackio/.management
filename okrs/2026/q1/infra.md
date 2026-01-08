@@ -4,11 +4,19 @@
 
 ### KR1: Provision 576 machines in parallel (1 row) with <5% failure rate requiring manual intervention
 
-### KR2: Total sub-pod deployment time ≤ [Y days/weeks] from rack-ready to workload-ready
+**Owner:** TBD
+
+### KR2: Total sub-pod deployment time ≤ 10 days from rack-ready to workload-ready
+
+**Owner:** TBD
 
 ### KR3: 100% of deployed machines export metrics to TPU-CC and are exported to the observability pipeline within 10 minutes of provisioning
 
+**Owner:** TBD
+
 ### KR4: ≥80% of hardware qualification failures handled end-to-end by automated remediation (reboot, re-image, ticket escalation)
+
+**Owner:** TBD
 
 ## O2: Achieve deployment readiness for Bloom CB3 (3 pods)
 
@@ -16,7 +24,11 @@ Readiness means we've validated the tooling/process can scale, even if deploymen
 
 ### KR1: Deployment runbook validated: complete dry-run of 1 pod equivalent in staging/lab environment
 
+**Owner:** TBD
+
 ### KR2: Provisioning system load-tested to handle 2x current parallel capacity (baseline for 2 concurrent pods)
+
+**Owner:** TBD
 
 ### KR3: Lab environment operational by March 31st with 1 rack V7, 1 Deschutes CDU, VAST cluster
 
@@ -25,13 +37,21 @@ Readiness means we've validated the tooling/process can scale, even if deploymen
 - Equipment delivered and racked by Mar 15
 - Lab 2.0 operational and validated by Mar 31
 
+**Owner:** TBD
+
 ## O3: Build team capacity to sustain Q2+ scale
 
 ### KR1: All new hires have secure access to prod/dev resources within 2 business days of start date
 
+**Owner:** TBD
+
 ### KR2: Deployment runbook and troubleshooting guides documented and reviewed by ≥2 team members
 
+**Owner:** TBD
+
 ### KR3: 2 infra compute hires onboarded and contributing to O1/O2 work by end of Q1
+
+**Owner:** TBD
 
 
 # Networking OKRs
@@ -211,9 +231,15 @@ Observability: monitoring operational, qualification proven, dashboards live
 
 ### KR1: CDU System fully installed and L4C Commissioned
 
+**Owner:** TBD
+
 ### KR2: Network Infrastructure installed and fully configured
 
+**Owner:** TBD
+
 ### KR3: v7 Machine Capacity fully installed and commissioned with Certificate of Completion
+
+**Owner:** TBD
 
 ## O2: Deployment SOP Readiness
 
@@ -378,3 +404,25 @@ Current Mimir costs (~$0.0375/host/h) must be reduced while scaling to support C
 - Operations handover checklist completed with sign-off; alerting configured for critical network failures with documented escalation paths
 
 **Owner:** Victor Blake (NRE Lead)
+
+# Demand Management OKRs
+
+## O1: Lay foundations for demand management
+
+Enable customers to dynamically request and manage infrastructure capacity through APIs, validated in lab, with legal/contractual framework established
+
+### KR1: BMS design for Stream, CB3 (and any BOM) defined by Jan 31
+
+**Owner:** Sam Ourada
+
+### KR2: BMS APIs defined and shared with customers by Feb 15
+
+**Owner:** Sam Ourada
+
+### KR3: Legal/contractual changes required for demand management defined and agreed upon by Feb 15
+
+**Owner:** Sam Ourada
+
+### KR4: Lab integration to BMS validated by Feb 28
+
+**Owner:** Sam Ourada
