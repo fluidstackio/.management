@@ -6,6 +6,8 @@
 - **Tooling:** Alexandre Lambert
 - **Labor:** Fangfei Chen
 
+**Owner:** Alexander Sherlin, Arjun Chimni, Alexandre Lambert, Fangfei Chen
+
 ### KR2: Execute on all IT infrastructure and ICT procurement
 
 Execute on all IT infrastructure and ICT procurement (racks, PDUs, fiber, etc.) to ensure timely delivery for CB3, Sanidine sites, and the new lab

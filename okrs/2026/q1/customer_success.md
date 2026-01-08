@@ -4,25 +4,35 @@
 
 ### KR1: Implement paging only for critical P0 system down or cluster wide degradation alerts
 
+**Owner:** TBD
+
 ### KR2: Implement Jira work tracking for P1 and below issues to be triaged during working hours
+
+**Owner:** TBD
 
 ## O2: Build sustainable process for tracking cluster lifecycle in Jira
 
 ### KR1: 100% of active clusters are trackable in Jira MRKT board with associated Customer, supplier, and contractual details
 
+**Owner:** TBD
+
 ## O3: Level up team to be able to address all inbound customer issues for managed k8s clusters
 
 ### KR1: 100% of Customer Engineers CKA Certified
+
+**Owner:** TBD
 
 ## O4: Implement PoC Process
 
 ### KR1: 100% of presales engagements have associated Discovery Agreement in place
 
-## O5: (joint with Cluster Ops) Supplier Quality & Standardization
+**Owner:** TBD
+
+## O5: Supplier Quality & Standardization
 
 Standardize supplier offerings and establish quality requirements to ensure consistent customer experience across all suppliers
 
-**Note:** This is a joint objective with Cluster Ops. Full details in software.md (Cluster Ops O4). Key results below are shared accountability.
+**Note:** This objective was previously joint with Cluster Ops but is now fully owned by Customer Engineering following the Cluster Ops and Platform Ops integration. Customer Engineering has full accountability for supplier quality and standardization.
 
 ### KR1: Define and publish Supplier Technical Requirements document
 
@@ -31,7 +41,7 @@ Standardize supplier offerings and establish quality requirements to ensure cons
 - Define handover checklist: what Fluidstack needs from suppliers at cluster turnup (credentials, monitoring endpoints, escalation paths)
 - Approval from Cluster Ops and Customer Engineering leadership
 
-**Owner:** Cluster Ops Lead, Customer Engineering Lead
+**Owner:** Customer Engineering Lead
 
 ### KR2: Establish Supplier Quality Dashboard
 
@@ -40,7 +50,7 @@ Standardize supplier offerings and establish quality requirements to ensure cons
 - Red/Yellow/Green status indicators for each supplier against SLA thresholds
 - Dashboard accessible to Sales, Customer Engineering, and leadership
 
-**Owner:** Cluster Ops Lead, Customer Engineering Lead
+**Owner:** Customer Engineering Lead
 
 ### KR3: Migrate all suppliers to standardized offerings by end of Q1
 
@@ -48,7 +58,7 @@ Standardize supplier offerings and establish quality requirements to ensure cons
 - Existing bare metal SLURM clusters identified with migration plan by Feb 15
 - All active suppliers acknowledged Supplier Technical Requirements (signed attestation or contract amendment)
 
-**Owner:** Cluster Ops Lead, Customer Engineering Lead
+**Owner:** Customer Engineering Lead
 
 ### KR4: Supplier scorecard integrated into presales process
 
