@@ -192,25 +192,6 @@ Establish security fundamentals for production infrastructure including vulnerab
 - Console shows basic metrics from FS System Health
 - Expose a way for customers to consume our FSH and Advanced metrics programmatically
 
-# Mike Ops
-
-### O1: Hire and retain the best talent
-
-- **KR1:** Add +4 SRE and achieve 50/50 time zone balance between west coast/London
-
-  **Owner:** TBD
-
-- **KR2:** "Repatriate" all team members lost to the infra team
-
-  **Owner:** TBD
-
-### O2: Align sales org around product roadmap
-
-- **KR1:** go/top40 customers are aligned to a product
-
-  **Owner:** TBD
-
-
 # Inference
 
 ### O1: Build technical foundation and team for TPU-based inference
