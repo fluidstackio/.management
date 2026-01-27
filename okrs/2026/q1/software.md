@@ -6,17 +6,21 @@
 
 ### KR1: Deployments progress at a minimum of 1000 GPUs/hr
 
-**Owner:** TBD
+**Owner:** Josh
 
-### KR2: Migrate all clusters[^1] to new ClusterOps stack, including regional management clusters (Goal 100%, currently at 19%)
+### KR2a: Migrate all (K8s?) clusters[^1] to new ClusterOps stack.
 
-**Owner:** TBD
+**Owner:** Tyler
+
+### KR2b: Migrate all clusters to regional management clusters
+
+**Owner:** Miguel
 
 ### KR3: SLURM on k8s as the default SLURM deployment, zero "bare metal" SLURM deployments (including POCs)
 
 *Note: This KR is enforced via Supplier Quality & Standardization requirements (see Customer Engineering O5) which establish technical requirements and deployment tooling enforcement.*
 
-**Owner:** TBD
+**Owner:** Nacef
 
 ### KR4: Clusters are decommissioned within 24h and there are zero spurious pages for decommissioned clusters
 
@@ -24,17 +28,17 @@
 
 ## O2: Clusters are reliable and alerts are routed properly
 
-### KR1: Reduce page volume by 40% via better alerting from FS System Health
+### KR1: Reduce page volume by 40% via better alerting from FS System Health. Fluidstack System Health (FSH) is available on all clusters, is appropriately managed and scaled, with zero pages and manageable costs.
 
-**Owner:** TBD
+**Owner:** Xander
 
-### KR2: Fluidstack System Health (FSH) is available on all clusters, is appropriately managed and scaled, with zero pages and manageable costs; Lighthouse is separated from FSH and broken into its own product
+### KR2: Lighthouse is separated from FSH and broken into its own product
 
-**Owner:** TBD
+**Owner:** Alexandra
 
 ### KR3: All supplier escalations are automatically forwarded to relevant suppliers; all customer alerts forwarded to customer channel
 
-**Owner:** TBD
+**Owner:** Hussein / Martin / Tariq?
 
 ### KR4: Observability stack improvements delivered
 
