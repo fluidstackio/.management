@@ -14,53 +14,48 @@
 
 ### KR2b: Migrate all clusters to regional management clusters
 
-**Owner:** Miguel
+**Owner:** Nacef
 
-### KR3: SLURM on k8s as the default SLURM deployment, zero "bare metal" SLURM deployments (including POCs)
+### KR3: SLURM on k8s as the default SLURM deployment, zero "bare metal" SLURM deployments (including POCs) — REVIST Q2
 
 *Note: This KR is enforced via Supplier Quality & Standardization requirements (see Customer Engineering O5) which establish technical requirements and deployment tooling enforcement.*
 
-**Owner:** Nacef
+**Owner:** REVIST Q2? I think the concensus is that Slinky is
 
 ### KR4: Clusters are decommissioned within 24h and there are zero spurious pages for decommissioned clusters
 
-**Owner:** TBD
+**Owner:** Lee
 
 ## O2: Clusters are reliable and alerts are routed properly
 
-### KR1: Reduce page volume by 40% via better alerting from FS System Health. Fluidstack System Health (FSH) is available on all clusters, is appropriately managed and scaled, with zero pages and manageable costs.
+### KR1: Reduce page volume by 40% via better alerting from FS System Health. Fluidstack System Health (FSH) is available on all clusters, is appropriately managed and scaled and manageable costs. (Lighthouse seperate product)
 
-**Owner:** Xander
+**Owner:** David
 
-### KR2: Lighthouse is separated from FSH and broken into its own product
+### KR2: Rollout ticketing system for all clusters and customers for non P1 events.
 
-**Owner:** Alexandra
+**Owner:** Martin
 
-### KR3: All supplier escalations are automatically forwarded to relevant suppliers; all customer alerts forwarded to customer channel
+### KR3: All supplier escalations are automatically forwarded to relevant suppliers.
 
-**Owner:** Hussein / Martin / Tariq?
+**Owner:** Tariq
 
-### KR4: Observability stack improvements delivered
+### KR4: All customer alerts forwarded to customer channel.
 
-*Note: Observability strategy and implementation is coordinated with the Observability Team (see infra.md Observability Team OKRs). Key dependencies:*
-- *FSH deployment and cost optimization (Observability Team O2, O4)*
-- *Customer-facing Advanced Metrics (Observability Team O3)*
-- *Network/compute observability integration (Observability Team O1)*
-
-**Owner:** TBD
+**Owner:** Martin
 
 ### KR5: Auto-remediation reduces MTTR to <15min (software) / <4hrs (hardware)
 
-- Deploy comprehensive DCGM health checks (passive + active) across all clusters
+- Deploy comprehensive DCGM health checks (passive + active) across all clusters.
 - Implement automated drain → diagnose → repair → reintegrate pipeline
 - Target: 85% of failures resolved without human intervention
 - ClusterMAX Platinum requirement: MTTR <15min for software failures, <4hrs for hardware failures
 
-**Owner:** TBD
+**Owner:** Requires cross team collaboration. TBD
 
 ## O3: Build ClusterMAX Platinum foundation
 
-Build automated operations and security depth to achieve ClusterMAX Platinum tier by mid-2026. Q1 focuses on establishing foundational capabilities that will be completed and validated for Platinum certification in Q2/Q3.
+Build automated operations and security depth to achieve ClusterMAX Platinum tier by mid-2026. Q1 focuses on establishing foundational capabilities that will be completed and validated for Platinum certification in Q2/Q3. — We need self serve for Platinum???
 
 ### KR1: Auto-Remediation - Reduce MTTR to <15min (software) / <4hrs (hardware)
 
@@ -90,7 +85,7 @@ Build automated operations and security depth to achieve ClusterMAX Platinum tie
 
 **Owner:** TBD
 
-## O4: Fluidstack managed Kubernetes is reliable and fully featured (including SLURM on K8s)
+## O4: Fluidstack managed Kubernetes is reliable and fully featured ~~(including SLURM on K8s~~)
 
 ### KR1: All K8s clusters migrated to management clusters
 
@@ -98,7 +93,7 @@ Build automated operations and security depth to achieve ClusterMAX Platinum tie
 - Management cluster architecture operational and scaled appropriately
 - Aggregate region information at the hub layer for unified control plane
 
-**Owner:** TBD
+**Owner:** PlatformOps
 
 ### KR2: NVSentinel running on all K8s clusters
 
@@ -107,7 +102,7 @@ Build automated operations and security depth to achieve ClusterMAX Platinum tie
 - Customer can edit/amend config for remediation
 - Reduce alert burden through remediation via NVSentinel installation on 90% of clusters, installed by default with opt-out
 
-**Owner:** TBD
+**Owner:** PlatformOps
 
 ### KR3: Kubernetes Add-On System operational
 
@@ -116,19 +111,19 @@ Build automated operations and security depth to achieve ClusterMAX Platinum tie
 - Users can opt-out of NVSentinel
 - Users can configure NVSentinel
 
-**Owner:** TBD
+**Owner:** PlatformOps
 
-### KR4: SLURM on k8s fully featured and production-ready
+~~### KR4: SLURM on k8s fully featured and production-ready~~
 
-- SLURM on k8s integrated with Kubernetes Add-On System architecture
-- Feature parity with bare metal SLURM for production workloads
-- Documentation and runbooks for SLURM on k8s operations
+~~- SLURM on k8s integrated with Kubernetes Add-On System architecture~~
+~~- Feature parity with bare metal SLURM for production workloads~~
+~~- Documentation and runbooks for SLURM on k8s operations~~
 
-**Owner:** TBD
+~~**Owner:** TBD~~
 
-### KR5: Can deploy Kubernetes on TPU v7 and schedule a workload on a 2x2x2 slice
+~~### KR5: Can deploy Kubernetes on TPU v7 and schedule a workload on a 2x2x2 slice~~
 
-**Owner:** TBD
+~~**Owner:** Q2 Goal.~~å
 
 ## O5: Security & Compliance Foundation
 
